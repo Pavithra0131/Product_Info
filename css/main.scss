@@ -1,0 +1,166 @@
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+
+// Override Bootstrap variables for customization (optional)
+$body-bg: #f8f9fa; // Example background color
+$primary-color: #007bff; // Example primary color
+$font-family-base: Arial, sans-serif; // Example font-family
+
+// Custom styles
+
+
+
+// Define custom classes for your product page
+.product-container {
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.product-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.product-description {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.product-price {
+  font-size: 18px;
+  color: $primary-color;
+  margin-bottom: 10px;
+}
+
+.buy-now-button {
+  background-color: $primary-color;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.buy-now-button:hover {
+  background-color: darken($primary-color, 10%);
+}
+
+// Add more custom styles as needed
+
+/* Add some global styling */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+}
+
+.container {
+    padding: 20px;
+}
+
+/* Navbar styling */
+
+.navbar {
+    background-color: #333;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-toggler-icon {
+    color: #fff;
+}
+
+.nav-link {
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #ff6600; /* Change to your desired hover color */
+}
+
+/* Carousel image styling */
+
+.carousel-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Features section styling */
+
+#features {
+    background-color: #fff;
+    padding: 40px 0;
+}
+
+#features h2 {
+    font-size: 28px;
+    color: #333;
+}
+
+#features ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+/* Buy Now button styling */
+
+#buy-now {
+    text-align: center;
+}
+
+.btn-primary {
+    background-color: #ff6600; /* Change to your desired button color */
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #ff4500; /* Change to your desired hover color */
+}
+
+/* Footer styling */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+/* Add additional custom styles as needed */
+
+/* Media queries for responsiveness */
+
+@media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 20px;
+    }
+    
+    .nav-link {
+        font-size: 16px;
+    }
+    
+    /* Add more responsive styles here */
+}
